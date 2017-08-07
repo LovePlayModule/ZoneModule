@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZoneModule_Example' do
+  pod 'ZoneModule', :path => '../'
+
+  target 'ZoneModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
