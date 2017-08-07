@@ -1,0 +1,22 @@
+{
+  "name": "ZoneModule",
+  "version": "0.1.0",
+  "summary": "A short description of ZoneModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YunsChou/ZoneModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YunsChou": "2647754496@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YunsChou/ZoneModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZoneModule/Classes/**/*"
+}

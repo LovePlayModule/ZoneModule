@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Masonry (1.0.2)
+  - Network (0.1.0):
+    - AFNetworking
+  - Tools (0.1.0):
+    - Tools/Macros (= 0.1.0)
+  - Tools/Macros (0.1.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZoneModule (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - Network
+  - Tools
+  - YYKit
+  - ZoneModule (from `../`)
+
+EXTERNAL SOURCES:
+  ZoneModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Network: 4a952f29d06daa87d43ab9111f5b31a1e99655eb
+  Tools: c7d2011889d8111e9cc2d40c29ab2183d1835de9
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZoneModule: 19129b4ebdbe144fb1d25dac6adca9cfdbf18eda
+
+PODFILE CHECKSUM: 25ebad4b98263067341489ca129e506ce0b993f1
+
+COCOAPODS: 1.2.1

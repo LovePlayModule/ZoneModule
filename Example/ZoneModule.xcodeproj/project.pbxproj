@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46EBBFF15A3E32A49087DAB3 /* Pods_ZoneModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95146FBE2F855C09A4C80221 /* Pods_ZoneModule_Tests.framework */; };
+		282D50964AF18C3CD2730948 /* libPods-ZoneModule_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6496F559D292453D86966A /* libPods-ZoneModule_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7F393E1DE6DCE9EB7106C1D6 /* Pods_ZoneModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EBDAAC18C83A57A44A4636 /* Pods_ZoneModule_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		935AA253DE357A948E30D931 /* libPods-ZoneModule_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCA610821FD5EDA710BBC54 /* libPods-ZoneModule_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +57,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62EBDAAC18C83A57A44A4636 /* Pods_ZoneModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoneModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87313D7AE154983433E07189 /* ZoneModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZoneModule.podspec; path = ../ZoneModule.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95146FBE2F855C09A4C80221 /* Pods_ZoneModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoneModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DE119D070B524C78D9AC57 /* Pods-ZoneModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoneModule_Example/Pods-ZoneModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CBCA610821FD5EDA710BBC54 /* libPods-ZoneModule_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZoneModule_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6496F559D292453D86966A /* libPods-ZoneModule_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZoneModule_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD67B1B8CBE1D96774431C7A /* Pods-ZoneModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoneModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZoneModule_Tests/Pods-ZoneModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D82761BFD38331294F8FD662 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FD44EFE0986588DCB0FC7AD1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7F393E1DE6DCE9EB7106C1D6 /* Pods_ZoneModule_Example.framework in Frameworks */,
+				935AA253DE357A948E30D931 /* libPods-ZoneModule_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				46EBBFF15A3E32A49087DAB3 /* Pods_ZoneModule_Tests.framework in Frameworks */,
+				282D50964AF18C3CD2730948 /* libPods-ZoneModule_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				62EBDAAC18C83A57A44A4636 /* Pods_ZoneModule_Example.framework */,
-				95146FBE2F855C09A4C80221 /* Pods_ZoneModule_Tests.framework */,
+				CBCA610821FD5EDA710BBC54 /* libPods-ZoneModule_Example.a */,
+				CC6496F559D292453D86966A /* libPods-ZoneModule_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
