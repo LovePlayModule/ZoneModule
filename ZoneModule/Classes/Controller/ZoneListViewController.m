@@ -124,6 +124,7 @@ static NSString *zoneListHeader = @"zoneListHeader";
         collectionView.backgroundColor = RGB(245, 245, 245);
         collectionView.dataSource = self;
         collectionView.delegate = self;
+        collectionView.alwaysBounceVertical = YES;
         [collectionView registerClass:[ZoneListCell class] forCellWithReuseIdentifier:zoneListCell];
         [collectionView registerClass:[ZoneListHeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:zoneListHeader];
         _colletionView = collectionView;

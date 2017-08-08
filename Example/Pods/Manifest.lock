@@ -23,7 +23,11 @@ PODS:
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
-  - ZoneModule (0.1.0)
+  - ZoneModule (0.1.1):
+    - Masonry
+    - Network
+    - Tools
+    - YYKit
 
 DEPENDENCIES:
   - Masonry
@@ -42,7 +46,7 @@ SPEC CHECKSUMS:
   Network: 4a952f29d06daa87d43ab9111f5b31a1e99655eb
   Tools: c7d2011889d8111e9cc2d40c29ab2183d1835de9
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
-  ZoneModule: 19129b4ebdbe144fb1d25dac6adca9cfdbf18eda
+  ZoneModule: cc5def5b0417f80741fb8090bfe83dfe0db10787
 
 PODFILE CHECKSUM: 25ebad4b98263067341489ca129e506ce0b993f1
 
