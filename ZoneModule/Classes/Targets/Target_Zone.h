@@ -11,6 +11,6 @@
 
 @interface Target_Zone : NSObject
 
-- (UIViewController *)Action_viewController;
+- (UIViewController *)Action_viewController:(NSDictionary *)params;
 
 @end

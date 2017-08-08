@@ -11,7 +11,7 @@
 
 @implementation Target_Zone
 
-- (UIViewController *)Action_viewController
+- (UIViewController *)Action_viewController:(NSDictionary *)params
 {
     ZoneListViewController *viewController = [[ZoneListViewController alloc] init];
     return viewController;
